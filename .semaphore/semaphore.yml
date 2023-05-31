@@ -17,7 +17,6 @@ blocks:
             - checkout
             - cache restore
             - go mod vendor
-            - cache store
   - name: Test
     task:
       jobs:
